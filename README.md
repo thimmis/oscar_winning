@@ -33,7 +33,7 @@ The second model uses exactly the same hyperparameters as in the general model b
 A final merge is done to compare the results of the two predictions.
 
 
-The ploltly dashboard is in production. It will allow one to select different actors from the entire list to show how the model predicts their awards using both methods as in the Leo_predictions notebook.
+A simple dashboard can be found here: https://best-actors.herokuapp.com/ 
 
 
 
@@ -69,6 +69,10 @@ This was an attempt to answer a silly question that is highly subject to persona
 These models seem to take into consideration the people's opinion slightly more than the opinions of critics. Furthermore the models assume that an actor's performance exists in a vacuum of sorts. It is likely that many of the over predicted nominations and awards are due to another actor's performance receiving a nomination for a different role in the same film.
 
 However, it is interesting to note the overlap, to me this suggests that the models are not far off from being able to accurately predict. Additional information such as main vs supporting role might help to improve the number and accuracy of predictions.
+
+## Further Consideration:
+
+The data currently lacks important information regarding each actor's roles, most notably is the fact that they do not take into consideration leading/supporting roles. Which in the future this will be accounted for as a binary value.
 
 
     
